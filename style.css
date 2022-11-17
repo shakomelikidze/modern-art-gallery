@@ -1,0 +1,1041 @@
+body {
+    margin: 0;
+    align-items: center;
+    vertical-align: middle;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 480px) {    
+    #header-img-mobile {
+        max-width: 100%;   
+    }
+
+    #header-img-tablet {
+        display: none;
+    }
+
+    .text-div {
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+
+    p {
+        font-family: 'Outfit';
+        line-height: 28px;
+        font-size: 18px;
+        color: #444444;
+    }
+
+    .gradient-h1 {
+        display: none;
+    }
+
+    .h1-for-mobile {
+        font-family: 'Big Shoulders Display';
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 55px;
+        text-transform: uppercase;
+        color: #151515;
+        margin-left: 10px;
+    }
+
+    .h1-for-tablet {
+        display: none;
+    }
+
+    /* css lokaciis gverdistvis */
+
+    /* ukan dabrunebis button */
+    .location-div-ukan-dabrunebistvis {
+        position: absolute;
+        height: 72px;
+        width: 204px;
+        background-color: #151515;
+        left: 52px;
+    }
+
+    .location-link {
+        letter-spacing: 3.63636px;
+    }
+
+    .arrow-div-back {
+        background-color: #D5966C;
+        width: 56px;
+        height: 72px;
+        display: inline-block;
+        position: relative;
+        left: -4px;
+    }
+
+    /*     aqamde        */
+
+    .map-for-mobile {
+        margin-top: -76px;
+        max-width: 100%;
+    }
+
+    .map-for-tablet {
+        display: none;
+    }
+
+    .map-for-desktop {
+        display: none;
+    }
+
+    .location-section {
+        max-width: 100%;
+        height: 480px;
+        background-color: #151515;
+        margin-top: -4px;
+    }
+
+    .location-section-left-div {
+        padding-top: 48px;
+    }
+
+    .our-location-p {
+        font-family: 'Big Shoulders Display';
+        font-weight: 900;
+        font-size: 50px;
+        color: #FFFFFF;
+        margin: 0;
+        margin-left: 16px;
+    }
+
+    .addres {
+        font-family: 'Big Shoulders Display';
+        font-weight: 900;
+        font-size: 32px;
+        color: #D5966C;
+        margin-left: 16px;
+        margin-top: 60px;
+    }
+
+    .addres2 {
+        font-family: 'Outfit';
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin-left: 16px;
+        margin-top: -10px;
+    }
+
+    .addres-info {
+        font-family: 'Outfit';
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin-left: 16px;
+    }
+
+    .mobile-location-footer{
+        max-width: 100% ;
+        height: 336px;
+        background: #D5966C;
+    }
+
+    /* ------------------------------ */
+
+    /* aq unda gaketdes lokaciis button */
+
+    .location-div {
+        height: 72px;
+        width: 204px;
+        background-color: #151515;
+        margin-left: 10px;
+        display: inline-block;
+    }
+
+    .location-link {
+        position: relative;
+        top: 24px;
+        left: 32px;
+        text-decoration: none;
+        font-family: 'Big Shoulders Display';
+        font-weight: 800;
+        font-size: 20px;
+        width: 204px;
+        height: 72px;
+        color: #FFFFFF;
+    }
+
+    .arrow-div-enter {
+        background-color: #D5966C;
+        width: 56px;
+        height: 72px;
+        display: inline-block;
+        position: relative;
+        top: 4px;
+        left: -4px;
+    }
+
+    .arrow-a-enter {
+        width: 56px;
+        height: 72px;
+    }
+
+    .arrow {
+        position: relative;
+        top: 24px;
+        left: 24px;
+    }
+
+    /* -------------------------------------- */                   
+
+    .mobile-section { 
+        margin-top: 100px;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    } 
+
+    .img-1 {
+        max-width: 100%;  
+    }
+
+    .h2-nairi-satauri {
+        margin: 0;
+        margin-top: 3vh;
+        font-family: 'Big Shoulders Display';
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 45px;
+        text-transform: uppercase;
+        color: #151515;
+    }
+
+    #txt-box-p {
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px; 
+    }
+
+    .bottom-left-img  { 
+        max-width: 100%;
+        margin-top: 20px ;
+    }
+
+    .bottom-right-top-img {
+        max-width: 100%;
+        margin-top: 15px;
+    }
+
+    .come-and-be-inspirated-div {
+        background-color: #151515;
+        max-width: 100%;
+        height: 300px;
+        margin-top: 15px;
+        padding-top: 48px;
+    }
+
+    .COME-AND-BE-INSPIRED {
+        color: #FFFFFF;
+        font-family: 'Big Shoulders Display';
+        font-weight: 900;
+        max-width: 100%;
+        margin: 0;
+        font-size: 50px;
+        line-height: 45px;
+        margin-left: 24px;
+    }
+
+    .come-and-be-inspirated-p {
+        margin-left: 24px;
+        margin-right: 24px;
+        font-family: 'Outfit';
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+    .mobile-footer {
+        background-color: #151515;
+        max-width: 100%;
+        margin-top: 100px;
+        height: 336px;
+    }
+
+    .footer-div {
+        padding-top: 48px;
+    }
+
+    .footer-img {
+        margin-left: 32px;
+    }
+
+    .footer-text {
+        margin-left: 32px;
+        margin-top: 38px;
+        width: 311px;
+        height: 105px;
+        font-family: 'Outfit';
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FFFFFF;
+    }
+
+    .icon-div {
+        margin-top: 35px;
+        margin-left: 32px;
+    }
+
+    .inst-icon {
+        margin-left: 20px;
+    }
+
+    .twit-icon {
+        margin-left: 20px;
+    }
+
+}
+
+
+                /* css tablet versiistvis */
+
+
+@media screen and (min-width: 480px) and (max-width:1000px) {
+
+    #header-img-mobile {
+        display: none;
+    }
+
+    #header-img-tablet {
+        width: 437px;
+        height: 700px;
+    }
+
+    .gradient-h1 {
+        display: none;
+    }
+
+    .h1-for-mobile {
+        display: none;
+    }
+
+    .h1-for-tablet {
+        font-family: 'Big Shoulders Display';
+        font-weight: 900;
+        font-size: 70px;
+        line-height: 65px;
+        text-transform: uppercase;
+        color: #151515;
+    }
+
+    .header-text-and-location-div {
+        position: absolute;
+        top: 145px;
+        left: 389px;
+        height: 339px;
+        width: 410px;
+        margin-right: 40px;
+    }
+
+    .text-div {
+        width: 339px;
+    }
+
+    p {
+        font-family: 'Outfit';
+        line-height: 28px;
+        font-size: 18px;
+        color: #444444;
+    } 
+
+    /* css lokaciis gverdistvis */
+
+        /* ukan dabrunebis button */
+    .location-div-ukan-dabrunebistvis {
+        position: absolute;
+        height: 72px;
+        width: 204px;
+        background-color: #151515;
+        left: 52px;
+    }
+
+    .location-link {
+        letter-spacing: 3.63636px;
+    }
+
+    .arrow-div-back {
+        background-color: #D5966C;
+        width: 56px;
+        height: 72px;
+        display: inline-block;
+        position: relative;
+        left: -4px;
+    }
+
+    /*     aqamde        */
+
+    .map-for-mobile {
+        display: none;
+    }
+
+    .map-for-desktop {
+        display: none;
+    }
+
+    .map-for-tablet {
+        max-width: 100%;
+        margin-top: -76px;
+    }
+
+    .location-section {
+        max-width: 100%;
+        height: 440px;
+        background-color: #151515;
+        margin: 0;
+        margin-top: -54px;
+    }
+
+    .location-section-left-div {
+        position: relative;
+        left: 39px;
+        top: 88px;
+        width: 223px;
+    }
+
+    .our-location-p {
+        font-family: 'Big Shoulders Display';
+        font-weight: 900;
+        font-size: 50px;
+        color: #FFFFFF;
+        line-height: 50px;
+    }
+
+    .location-section-right-div {
+        position: relative;
+        top: -72px;
+        left: 300px;
+        width: 460px;
+        height: 268px;
+    }
+
+    .addres {
+        font-family: 'Big Shoulders Display';
+        font-weight: 900;
+        font-size: 32px;
+        color: #D5966C;
+        margin-left: 16px;
+        margin-top: 60px;
+    }
+
+    .addres2 {
+        font-family: 'Outfit';
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin-left: 16px;
+        margin-top: -10px;
+    }
+
+    .addres-info {
+        font-family: 'Outfit';
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin-left: 16px;
+    }
+
+    .mobile-location-footer{
+        max-width: 100% ;
+        height: 216px;
+        background: #D5966C;
+    }
+
+    .footer-img {
+        position: relative;
+        top: 56px;
+        left: 39px;
+    }
+
+    .footer-text {
+        width: 281px;
+        height: 104px;
+        position: relative;
+        top: -15px;
+        left: 240px;
+    }
+
+    .icon-div {
+        position: relative;
+        top: -130px;
+        left: 628px;
+    }
+
+    .inst-icon {
+        margin-left: 20px;
+    }
+
+    .twit-icon {
+        margin-left: 20px;
+    }
+
+    /* ----------------------------------- */
+
+    /* aq unda gaketdes lokaciis button */
+
+    .location-div {
+        height: 72px;
+        width: 204px;
+        background-color: #151515;
+        display: inline-block;
+    }
+
+    .location-link {
+        position: relative;
+        top: 24px;
+        left: 32px;
+        text-decoration: none;
+        font-family: 'Big Shoulders Display';
+        font-weight: 800;
+        font-size: 20px;
+        width: 204px;
+        height: 72px;
+        color: #FFFFFF;
+        letter-spacing: 3.63636px;
+    }
+
+    .arrow-div-enter {
+        background-color: #D5966C;
+        width: 56px;
+        height: 72px;
+        display: inline-block;
+        position: relative;
+        top: 4px;
+        left: -4px;
+    }
+
+    .arrow-a {
+        width: 56px;
+        height: 72px;
+    }
+
+    .arrow {
+        position: relative;
+        top: 24px;
+        left: 24px;
+    }
+
+    /* -------------------------------------- */   
+
+    .mobile-section { 
+        margin-top: 120px;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    } 
+
+    .top-line {
+        margin-left: 2vw;
+    }
+
+    .img-1 {
+        display: inline-block;
+        position: relative;
+        left: 90px;
+        width: 372px;
+        height: 400px;
+    }
+
+    #top-line-txt-box {
+        display: inline-block;
+        position: relative;
+        top: -90px;
+        width: 223px;
+        height: 299px;
+    }
+
+    .h2-nairi-satauri {
+        margin: 0;
+        margin-top: 3vh;
+        font-family: 'Big Shoulders Display';
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 45px;
+        text-transform: uppercase;
+        color: #151515;
+    }
+
+    #txt-box-p {
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px; 
+    }
+
+    .bottom-line { 
+        margin-top: 10px;
+        margin-left: 2vw;
+    }
+
+    #bottom-left {
+        display: inline-block;
+    }
+
+    .bottom-left-img {
+        width: 398px;
+        height: 720px;
+    }
+
+    #bottom-right {
+        display: inline-block;
+    }
+
+    .bottom-right-top-img {
+        position: relative;
+        top: -724px;
+        left: 409px;
+        width: 280px;
+        height: 313px;
+    }
+
+    .come-and-be-inspirated-div {
+        display: inline-block;
+        position: relative;
+        left: 125px;
+        top: -415px;
+        width: 280px;
+        height: 350px;
+        background-color: #151515;
+        padding-top: 48px;
+    }
+
+    .COME-AND-BE-INSPIRED {
+        color: #FFFFFF;
+        font-family: 'Big Shoulders Display';
+        font-weight: 900;
+        max-width: 100%;
+        margin: 0;
+        font-size: 50px;
+        line-height: 45px;
+        margin-left: 24px;
+        margin-top: 40px;
+    }
+    
+    .come-and-be-inspirated-p {
+        margin-left: 24px;
+        margin-right: 24px;
+        font-family: 'Outfit';
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+    .mobile-footer {
+        position: relative;
+        top: -276px;
+        background-color: #151515;
+        max-width: 100%;
+        height: 216px;
+    }
+
+    .footer-text {
+        width: 311px;
+        height: 105px;
+        font-family: 'Outfit';
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FFFFFF;
+    }
+
+    .inst-icon {
+        margin-left: 20px;
+    }
+
+    .twit-icon {
+        margin-left: 20px;
+    }
+
+
+}
+
+            /*  css desktop versiistvis */
+
+@media screen and (min-width: 1000px) {
+
+    #header-img-mobile {
+        display: none;
+    }
+
+    #header-img-tablet {
+        display: none;
+    }
+
+
+    .h1-for-mobile-and-tablet {
+        display: none;
+    }
+
+    .img-div {
+        max-width: 1000px;
+        height: 800px;
+        position: relative;
+    }
+
+    .header-img-desktop {
+        background-color: black;
+        background-image: url("https://cdn.glitch.global/d0d4b17f-f3a3-4d7b-b6fc-67b48f54a05b/image-hero%402x.jpg?v=1666521056115");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 540px;
+        width: 100%;
+        height: 100%;
+    }
+      
+    .h1-div {
+        width: 514px;
+        height: 100%;
+        position: absolute;
+        top: 189px;
+        left: 190px;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-image: linear-gradient(270deg, black 47.7%, white 10px);
+    }
+
+    .gradient-h1 {
+    font-family: 'Big Shoulders Display';
+    font-size: 96px;
+    line-height: 88px;
+    }
+
+    .h1-for-mobile {
+        display: none;
+    }
+
+    .h1-for-tablet {
+        display: none;
+    }
+
+    .header-text-and-location-div {
+        position: absolute;
+        top: 230px;
+        left: 950px;
+        height: 339px;
+        width: 410px;
+        margin-right: 40px;
+    }
+
+    .text-div {
+        width: 339px;
+    }
+
+    p {
+        font-family: 'Outfit';
+        line-height: 28px;
+        font-size: 18px;
+        color: #444444;
+    } 
+
+    /* css lokaciis gverdistvis */
+
+     /* ukan dabrunebis button */
+     .location-div-ukan-dabrunebistvis {
+        position: absolute;
+        height: 72px;
+        width: 204px;
+        background-color: #151515;
+        left: 52px;
+    }
+
+    .location-div-ukan-dabrunebistvis:hover {
+        background-color: #D5966C;
+    }
+
+    .location-link {
+        letter-spacing: 3.63636px;
+    }
+
+    .arrow-div-back {
+        background-color: #D5966C;
+        width: 56px;
+        height: 72px;
+        display: inline-block;
+        position: relative;
+        left: -4px;
+    }
+
+    .arrow-div-back:hover {
+        background-color: #151515;
+    }
+
+    /*     aqamde        */
+
+    .map-for-mobile {
+        display: none;
+    }
+
+    .map-for-tablet {
+        display: none;
+    }
+
+    .map-for-desktop {
+        display: block;
+        max-width: 100%;
+        margin-top: -72px;
+    }
+
+    .location-section {
+        max-width: 100%;
+        height: 440px;
+        background-color: #151515;
+        margin: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-content: space-between;
+        align-items: flex-end;
+    }
+
+    
+    .location-section-left-div {
+        width: 223px;
+    }
+
+    .our-location-p {
+        font-family: 'Big Shoulders Display';
+        font-weight: 900;
+        font-size: 50px;
+        color: #FFFFFF;
+        line-height: 50px;
+    }
+
+    .location-section-right-div {
+        width: 460px;
+        height: 268px;
+    }
+
+    .addres {
+        font-family: 'Big Shoulders Display';
+        font-weight: 900;
+        font-size: 32px;
+        color: #D5966C;
+        margin-left: 16px;
+        margin-top: 60px;
+    }
+
+    .addres2 {
+        font-family: 'Outfit';
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin-left: 16px;
+        margin-top: -10px;
+    }
+
+    .addres-info {
+        font-family: 'Outfit';
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin-left: 16px;
+    }
+
+    .mobile-location-footer{
+        max-width: 100% ;
+        height: 216px;
+        background: #D5966C;
+    }
+
+    /* ----------------------------------- */
+
+    /* aq unda gaketdes lokaciis button */
+
+    .location-div {
+        height: 72px;
+        width: 204px;
+        background-color: #151515;
+        display: inline-block;
+    }
+
+    .location-div:hover {
+        background-color: #D5966C;
+    }
+
+    .location-link {
+        position: relative;
+        top: 24px;
+        left: 32px;
+        text-decoration: none;
+        font-family: 'Big Shoulders Display';
+        font-weight: 800;
+        font-size: 20px;
+        width: 204px;
+        height: 72px;
+        color: #FFFFFF;
+        letter-spacing: 3.63636px;
+    }
+
+    .arrow-div-enter {
+        background-color: #D5966C;
+        width: 56px;
+        height: 72px;
+        display: inline-block;
+        position: relative;
+        top: 4px;
+        left: -4px;
+    }
+
+    .arrow-div-enter:hover {
+        background-color: #151515;
+    }
+
+    .arrow-a {
+        width: 56px;
+        height: 72px;
+    }
+
+    .arrow {
+        position: relative;
+        top: 24px;
+        left: 24px;
+    }
+
+    /* -------------------------------------- */   
+
+    .mobile-section { 
+        width: 1110px;
+        margin-left: 13vw;
+        margin-top: 180px;
+    } 
+
+    .top-line {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #top-line-txt-box {
+        display: inline-block;
+        width: 350px;
+        height: 280px;
+    }
+
+    .h2-nairi-satauri {
+        margin: 0;
+        font-family: 'Big Shoulders Display';
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 65px;
+        text-transform: uppercase;
+        color: #151515;
+    }
+
+    #txt-box-p {
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 32px; 
+    }
+
+    .img-1 {
+        width: 635px;
+        height: 400px;
+        margin-left: 125px;
+    }
+
+    .bottom-line { 
+        margin-top: 20px;
+        width: 1110px;
+        display: flex;
+    }
+
+    .bottom-left-img {
+        width: 635px;
+        height: 720px;
+    }
+
+    #bottom-right {
+        width: 445px;
+        margin-left: 30px;
+    }
+
+    .bottom-right-top-img {
+        margin: 0;
+        width: 445px;
+        height: 313px;
+    }
+
+    .come-and-be-inspirated-div {
+        margin-top: 18px;
+        width: 445px;
+        height: 337px;
+        background-color: #151515;
+        padding-top: 48px;
+    }
+
+    .COME-AND-BE-INSPIRED {
+        color: #FFFFFF;
+        font-family: 'Big Shoulders Display';
+        font-weight: 900;
+        max-width: 100%;
+        margin: 0;
+        font-size: 60px;
+        line-height: 60px;
+        margin-left: 48px;
+    }
+
+    .come-and-be-inspirated-p {
+        margin-left: 48px;
+        margin-top: 30px;
+        font-family: 'Outfit';
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+   
+    .mobile-footer {
+        margin-top: 150px;
+        background-color: #151515;
+        height: 216px;
+    }
+
+    .footer-div {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: relative;
+        top: 40px;
+    }
+
+    .footer-img {
+        width: 160px;
+        height: 58px;
+    }
+
+    .footer-text {
+        width: 430px;
+        height: 85px;
+        font-family: 'Outfit';
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+    .inst-icon {
+        margin-left: 20px;
+    }
+
+    .twit-icon {
+        margin-left: 20px;
+    }  
+
+}
